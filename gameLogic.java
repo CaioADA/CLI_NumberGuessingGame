@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class gameLogic {
 
+    execution executarJogo = new execution();
     Random random = new Random();
     Scanner scanner = new Scanner(System.in);
     Message mensagens = new Message();
@@ -18,6 +19,7 @@ public class gameLogic {
     }
 
     public int userGuesses() {
+        mensagens.takeGuess();
         this.userGuess = scanner.nextInt();
         return this.userGuess;
     }
@@ -66,6 +68,18 @@ public class gameLogic {
                 continue;
             }
         } while (tryCounter != numberOfGuesses);
-        mensagens.loseMessage(randomNumber);
+    }
+
+    public void playAgain() {
+        mensagens.tryAgain();
+        int decisao = scanner.nextInt();
+        if (decisao == 1) {
+            executarJogo.execGame();
+        } else if (decisao == 2) {
+            mensagens.endGame();
+        } else {
+            mensagens.errorTryAgainSelect();
+            playAgain();
+        }
     }
 }

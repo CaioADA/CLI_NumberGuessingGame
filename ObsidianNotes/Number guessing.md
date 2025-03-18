@@ -17,5 +17,7 @@ O jogo termina quando o usuário errar todas suas chances ou acertar o número
 - [x] mensagem de verificação
 - [x] mensagem de derrota
 - [x] mensagem de tentenovamente
-
-Incompleto
+- [x] Deixar mais bonito
+- [x] Deixar o usuário jogar diversas vezes
+- [ ] Timer
+- [ ] Tabela de pontuação
