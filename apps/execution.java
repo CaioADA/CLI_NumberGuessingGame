@@ -1,7 +1,8 @@
+package apps;
 public class execution {
 
     public void execGame() {
-        Message mensagens = new Message();
+        message mensagens = new message();
         gameLogic logicaJogo = new gameLogic();
 
         mensagens.wecolmeMessage();

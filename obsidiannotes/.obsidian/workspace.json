@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Number guessing.md",
+                "file": "numberGuessingGameProject.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Number guessing"
+              "title": "numberGuessingGameProject"
             }
           }
         ]
@@ -184,9 +184,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ee988a5007a29a5e",
+  "active": "92055267e026e03b",
   "lastOpenFiles": [
     "Welcome.md",
-    "Number guessing.md"
+    "numberGuessingGameProject.md"
   ]
 }
