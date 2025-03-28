@@ -1,5 +1,5 @@
 package apps;
-public class message {
+public class Message {
 
     public void wecolmeMessage() {
         System.out.println("Seja bem vindo ao jogo de adivinha!");

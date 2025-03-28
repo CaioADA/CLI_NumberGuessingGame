@@ -1,13 +1,14 @@
 package apps;
+
 import java.util.Random;
 import java.util.Scanner;
 
-public class gameLogic {
+public class GameLogic {
 
-    execution executarJogo = new execution();
+    Execution executarJogo = new Execution();
     Random random = new Random();
     Scanner scanner = new Scanner(System.in);
-    message mensagens = new message();
+    Message mensagens = new Message();
 
     int userGuess;
     int tryCounter;
